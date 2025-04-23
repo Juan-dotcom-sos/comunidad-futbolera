@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Comunidad Futbolera</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #f0f4f8;
+    }
+    .header {
+      background-color: #34d399;
+      color: white;
+    }
+    .footer {
+      background-color: #34d399;
+      color: white;
+    }
+    .section-title {
+      font-size: 1.25rem;
+      font-weight: 600;
+      color: #2d3748;
+    }
+    .card {
+      background-color: white;
+      padding: 2rem;
+      border-radius: 0.5rem;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    }
+  </style>
+</head>
+<body>
+  <header class="header p-6 shadow-lg">
+    <h1 class="text-3xl font-bold text-center">Comunidad Futbolera</h1>
+    <p class="text-center text-xl">¡Conecta, juega y disfruta del fútbol en tu zona!</p>
+  </header>
+
+  <main class="p-6 max-w-4xl mx-auto space-y-8">
+    <!-- Recomendaciones de Pistas -->
+    <section class="card">
+      <h2 class="section-title">📍 Recomendaciones de Pistas</h2>
+      <p>¿Dónde se juega chido? Comparte canchas techadas o al aire libre, con buena luz, baños, buen precio y buen ambiente. ¡Haz que todos juguemos mejor!</p>
+    </section>
+
+    <!-- Busco Equipo / Jugadores -->
+    <section class="card">
+      <h2 class="section-title">🤝 Busco Equipo / Jugadores</h2>
+      <p>¿No tienes equipo o necesitas jugadores? Este es el lugar. Publica tu posición, nivel y zona, o busca a tu próximo fichaje. ¡Aquí nadie se queda sin jugar!</p>
+    </section>
+
+    <!-- Torneos y Amistosos -->
+    <section class="card">
+      <h2 class="section-title">🏆 Torneos y Amistosos</h2>
+      <p>Comparte torneos locales, relámpagos o amistosos. Arma tu equipo, organiza un partido o únete a uno. ¡El balón nunca para!</p>
+    </section>
+
+    <!-- Chill Futbolero -->
+    <section class="card">
+      <h2 class="section-title">🎉 Chill Futbolero</h2>
+      <p>Memes, videos, bloopers, historias y buena vibra. Aquí se habla de fútbol con pasión y humor. Si vienes a tirar buen rollo, este es tu lugar.</p>
+    </section>
+
+    <!-- Equipamiento y Tips -->
+    <section class="card">
+      <h2 class="section-title">🎽 Equipamiento y Tips</h2>
+      <p>¿Buscas buenos tacos, balones o guantes? ¿Tienes hacks para cuidar tu equipo o evitar lesiones? Comparte tus tips y recomendaciones con la banda.</p>
+    </section>
+
+    <!-- Formulario de Contacto -->
+    <section class="card">
+      <h2 class="section-title">📞 Formulario de Contacto</h2>
+      <p>Déjanos tu correo o número para que podamos contactarte y mantenerte informado de las novedades de nuestra comunidad futbolera.</p>
+      <form action="mailto:pepalopez2025@gmail.com" method="POST" enctype="multipart/form-data" class="mt-4">
+        <div class="mb-4">
+          <label for="email" class="block text-gray-700">Correo Electrónico o Número</label>
+          <input type="text" id="email" name="email" placeholder="Ejemplo: contacto@ejemplo.com" class="w-full p-3 border border-gray-300 rounded-md" required />
+        </div>
+        <button type="submit" class="w-full bg-green-600 text-white p-3 rounded-md">Enviar</button>
+      </form>
+    </section>
+
+    <!-- Enlace al Grupo de WhatsApp -->
+    <section class="card text-center">
+      <h2 class="section-title">👥 Únete a nuestro grupo de WhatsApp</h2>
+      <p>Conéctate con otros futboleros de la comunidad y mantente al tanto de los eventos, torneos y más.</p>
+      <a href="https://chat.whatsapp.com/E0JHPWLqrUAF5NHMrFbhTc" target="_blank" class="text-white bg-green-600 p-3 rounded-md inline-block mt-4">Unirme al Grupo de WhatsApp</a>
+    </section>
+  </main>
+
+  <footer class="footer p-4">
+    <p class="text-center">&copy; 2025 Comunidad Futbolera. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>
